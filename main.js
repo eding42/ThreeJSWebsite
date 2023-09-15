@@ -23,7 +23,7 @@ document.body.appendChild( renderer.domElement );
 const light = new THREE.AmbientLight( 0xffffff, 10); 
 scene.add( light );
 
-camera.position.z = 80;
+camera.position.z = 60;
 camera.position.y = 30;
 camera.position.x = 5;
 
